@@ -6,7 +6,6 @@
   <artifactId>jdk8sample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>jdk8sample</name>
   <url>http://maven.apache.org</url>
 
@@ -23,16 +22,20 @@
     </dependency>
   </dependencies>
   <build>
-  <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.2</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-    </plugins>
+	  <plugins>
+	      <plugin>
+	        <groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-compiler-plugin</artifactId>
+	        <version>3.2</version>
+	        <configuration>
+	          <source>1.8</source>
+	          <target>1.8</target>
+	        </configuration>
+	      </plugin>
+	  </plugins>
     </build>
 </project>
+ <!-- ====================================================================== -->
+ <!-- A MINIMALISTIC POM FOR JAVAEE 6/7  - http://www.adam-bien.com/roller/abien/entry/a_minimalistic_pom_for_javaee  -->
+ <!-- MAVEN: LIFECYCLE HOOKS LEAD TO INFREQUENT INTEGRATIONS  - http://www.adam-bien.com/roller/abien/entry/maven_lifecycle_hooks_lead_to -->
+ <!-- ====================================================================== -->
